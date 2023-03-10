@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --branco: #FFFFFF;
+    --cinza: #c0c0c0;
+    --azul: #167BF7;
+    --fundo: #00030c;
+    --fonte-principal: "inter";
+
+}
+
+body {
+    background-color: var(--fundo);
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    align-items: center;
+
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__botao {
+    background-color: var(--azul);
+    border-radius: 8px;
+    padding: 1em;
+    color: var(--branco);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco);
+}
+
+.container__aviso {
+    font-size: 12px;
+    color: var(--cinza);
+}
+
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa {
+    margin: 0 6em;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 0.1em;
+    color: var(--branco);
+}
+
+.descricao__texto {
+    color: var(--cinza);
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao {
+    padding: 2em;
+
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    font-size: 48px;
+    padding-bottom: 1rem;
+}
+
+.lista__item {
+    font-size: 32px;
+    padding-bottom: 5rem;
+}
+
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 1em;
+
+}
+
+.lista__link a {
+    text-decoration: none;
+    color: var(--branco);
+    margin: 1em;
+}
+
+
+.rodape__texto {
+    color: var(--cinza);
+    font-size: 14px;
+    margin: 1em 0;
+}
+.lista__link a:hover{
+    color: deepskyblue;
+}
+.container__botao:hover{
+    background-color: orange;
+    color: darkviolet;
+}
+.botao_secundario:hover{
+    background-color: #FFFFFF;
+    color: black;
+}
+.secundario__botao:hover{
+    background-color: transparent;
+    color: gold;
+}
+
